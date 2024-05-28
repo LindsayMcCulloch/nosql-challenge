@@ -2,6 +2,8 @@
 
 This is the repository for Monash University Data Analytics Module 12 Challenge
 
+Import the dataset with `mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json.`in your terminal
+
 ## Contents
 
   * `NoSQL_setup.ipynb` file with  part 1 & 2 queries
@@ -122,6 +124,19 @@ Unless otherwise stated, for each question:
 ## Resources
 
 BCS Xpert Learning assistant
+
+https://mongodb.com/docs/
+
+https://www.mongodb.com/docs/manual/reference/operator/query-comparison/
+
+https://www.mongodb.com/docs/manual/reference/method/db.collection.aggregate/
+
+https://stackoverflow.com/questions/14755164/how-to-find-all-the-items-that-are-not-numbers-in-mongodb-collection
+
+https://stackoverflow.com/questions/68530571/update-many-mongo-document-with-pymongo
+
+https://www.geeksforgeeks.org/python-mongodb-update_many-query/
+
 
 ## Acknowledgments
 
